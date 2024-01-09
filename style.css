@@ -1,0 +1,67 @@
+.parent{
+    display: flex;  
+    flex-direction: row; 
+    min-height: 00px;
+    border: 5px solid rgb(32, 224, 192);
+    justify-content:space-around ;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+   h1{
+       text-align: center;
+       margin: 0px;
+       font-size: 20px;
+       margin-top: 4px;
+   }
+   
+   .child {
+     height: 230px;
+     width:200px;
+     border: 3px solid black;
+     margin: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     /* background-color: rgb(223, 144, 41); */
+   }
+   
+   .child:hover{
+       background-color: black;
+       color: white;
+       border-color: black;
+   }
+   .child_1 {
+     background-image:url(/image/burger.jpg);
+     height: 200px;
+     width: 200px;
+   }
+   .child_2 {
+    background-image:url(/image/pizza.jpg);
+    height: 200px;
+    width: 200px;   }
+   .child_3 {
+    background-image:url(/image/sandwich.jpg);
+    height: 200px;
+    width: 200px;   }
+   .child_4 {
+    background-image:url(/image/ncigates.jpg);
+    height: 200px;
+    width: 200px;   }
+    .child_5 {
+        background-image:url(/image/samosa.jpg);
+        height: 200px;
+        width: 200px;
+      }
+      .child_6 {
+       background-image:url(/image/fries.jpg);
+       height: 200px;
+       width: 200px;   }
+      .child_7 {
+       background-image:url(/image/pasta.jpg);
+       height: 200px;
+       width: 200px;   }
+      .child_8 {
+       background-image:url(/image/pizza2.jpg);
+       height: 200px;
+       width: 200px;   }
